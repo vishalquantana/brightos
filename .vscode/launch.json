@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:brightos}",
+            "name": "Debug BrightMultiDisplay",
+            "program": "${workspaceFolder:brightos}/.build/debug/BrightMultiDisplay",
+            "preLaunchTask": "swift: Build Debug BrightMultiDisplay"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:brightos}",
+            "name": "Release BrightMultiDisplay",
+            "program": "${workspaceFolder:brightos}/.build/release/BrightMultiDisplay",
+            "preLaunchTask": "swift: Build Release BrightMultiDisplay"
+        }
+    ]
+}
